@@ -3,6 +3,8 @@ Role Name
 
 This ansible role will install nexus repository in the aws ec2 using centos7 images.  
 
+[![Build Status](https://travis-ci.org/hemanth22/ansible-role-nexus_repository.svg?branch=master)](https://travis-ci.org/hemanth22/ansible-role-nexus_repository)
+
 default Username: admin  
 default Password: password  
 default Port: 8081
