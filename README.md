@@ -1,4 +1,4 @@
-Role Name
+Role Name : Nexus Repository
 =========
 
 This ansible role will install nexus repository in the aws ec2 using centos7 images.  
@@ -6,8 +6,12 @@ This ansible role will install nexus repository in the aws ec2 using centos7 ima
 [![Build Status](https://travis-ci.org/hemanth22/ansible-role-nexus_repository.svg?branch=master)](https://travis-ci.org/hemanth22/ansible-role-nexus_repository)
 
 default Username: admin  
-default Password: password  
-default Port: 8081
+default Password will be stored in path /nexus-data/admin.password.  
+Execute below command to see the password the ec2 instance.  
+
+`docker exec -it nexus /bin/bash -c "cat /nexus-data/admin.password"`  
+
+default Port: 8081  
 
 Requirements
 ------------
